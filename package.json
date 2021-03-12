@@ -6,9 +6,9 @@
   "scripts": {
     "prebuild": "npm run lint",
     "build": "tsc -p tsconfig.json",
-    "prestart": "npm run build",
     "postinstall": "npm run build",
-    "start": "node --inspect=5858 -r ts-node/register ./app/index.ts",
+    "start": "node ./dist/index.js",
+    "start:dev": "node --inspect=5858 -r ts-node/register ./app/index.ts",
     "start:watch": "nodemon",
     "lint": "eslint 'app/**/*.ts' --quiet --fix",
     "prettier-format": "prettier --config .prettierrc '/app/**/*.ts' --write"
