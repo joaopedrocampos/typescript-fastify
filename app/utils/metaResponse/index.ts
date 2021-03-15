@@ -1,4 +1,4 @@
-const pkgJson = require('../../../package.json');
+import * as pkgJson from '../../../package.json';
 
 class MetaResponse {
     public version: string;
