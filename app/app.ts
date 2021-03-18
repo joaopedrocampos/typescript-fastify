@@ -10,7 +10,10 @@ const server: FastifyInstance<
     IncomingMessage,
     ServerResponse
 > = fastify({
-    logger: true,
+    logger: {
+        level: process.env.LOG_LEVEL || 'info',
+    },
+    http2: true,
 });
 
 function registerCommonSchemas(): void {
@@ -29,4 +32,8 @@ function startServer(): FastifyInstance {
     return server;
 }
 
-export default startServer;
+async function closeServer(): Promise<void> {
+    await server.close();
+}
+
+export { startServer, closeServer };
