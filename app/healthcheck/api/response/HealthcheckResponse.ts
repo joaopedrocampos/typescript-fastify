@@ -8,7 +8,6 @@ class HealthcheckResponse {
     constructor() {
         this.meta = new MetaResponse();
         this.ping = 'pong';
-        this.status_code = 200;
     }
 }
 

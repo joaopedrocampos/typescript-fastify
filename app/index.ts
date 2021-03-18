@@ -1,4 +1,4 @@
-import startServer from './app';
+import { startServer } from './app';
 
 const PORT: number = +process.env.PORT || 8080;
 const fastify = startServer();
