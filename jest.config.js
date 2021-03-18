@@ -6,6 +6,6 @@ module.exports = {
     testEnvironment: 'node',
     testMatch: ['**/*.spec.ts'],
     testPathIgnorePatterns: ['/node_modules/'],
-    collectCoverageFrom: ['app/**/*.ts', '!app/index.ts'],
+    collectCoverageFrom: ['app/**/*.ts', '!app/index.ts', '!dist/'],
     setupFiles: ['<rootDir>/.jest/setupEnv.ts'],
 };

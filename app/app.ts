@@ -2,7 +2,6 @@ import fastify, { FastifyInstance } from 'fastify';
 import { IncomingMessage, Server, ServerResponse } from 'http';
 
 import healthcheckRoutes from './healthcheck/api/routes';
-
 import { metaSchema } from './utils/commonSchemas';
 
 const server: FastifyInstance<
@@ -36,4 +35,4 @@ async function closeServer(): Promise<void> {
     await server.close();
 }
 
-export { startServer, closeServer };
+export { closeServer, startServer };

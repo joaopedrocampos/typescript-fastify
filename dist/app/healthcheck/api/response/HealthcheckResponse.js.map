@@ -1,1 +1,0 @@
-{"version":3,"file":"HealthcheckResponse.js","sourceRoot":"","sources":["../../../../../app/healthcheck/api/response/HealthcheckResponse.ts"],"names":[],"mappings":";;AAAA,MAAM,mBAAmB;IAIrB;QACI,IAAI,CAAC,IAAI,GAAG,MAAM,CAAC;QACnB,IAAI,CAAC,WAAW,GAAG,GAAG,CAAC;IAC3B,CAAC;CACJ;AAED,kBAAe,mBAAmB,CAAC"}

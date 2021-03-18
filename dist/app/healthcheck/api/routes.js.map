@@ -1,1 +1,0 @@
-{"version":3,"file":"routes.js","sourceRoot":"","sources":["../../../../app/healthcheck/api/routes.ts"],"names":[],"mappings":";;;;;;;;;;;AAEA,sEAA+D;AAE/D,SAAe,iBAAiB,CAAC,OAAgC;;QAC7D,OAAO,CAAC,KAAK,CAAC;YACV,MAAM,EAAE,KAAK;YACb,GAAG,EAAE,cAAc;YACnB,OAAO,EAAE,4BAAkB;SAC9B,CAAC,CAAC;IACP,CAAC;CAAA;AAED,kBAAe,iBAAiB,CAAC"}

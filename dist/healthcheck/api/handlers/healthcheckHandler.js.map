@@ -1,1 +1,0 @@
-{"version":3,"file":"healthcheckHandler.js","sourceRoot":"","sources":["../../../../app/healthcheck/api/handlers/healthcheckHandler.ts"],"names":[],"mappings":";;;;;;;;;;;AAEA,yEAAkE;AAElE,SAAe,kBAAkB,CAC7B,OAAuB,EACvB,KAAmB;;QAEnB,MAAM,QAAQ,GAAG,IAAI,6BAAmB,EAAE,CAAC;QAE3C,OAAO,KAAK,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAC;IAC1C,CAAC;CAAA;AAED,kBAAe,kBAAkB,CAAC"}
