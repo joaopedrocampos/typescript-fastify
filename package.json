@@ -6,9 +6,9 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "postinstall": "npm run build",
-    "start": "node ./dist/index.js",
-    "start:dev": "node --inspect=5858 -r ts-node/register ./app/index.ts",
-    "start:watch": "nodemon",
+    "start": "node ./dist/app/index.js",
+    "dev": "node --inspect=5858 -r ts-node/register ./app/index.ts",
+    "watch": "nodemon",
     "test": "LOG_LEVEL=silent && jest -c jest.config.js --detectOpenHandles --coverage --forceExit --runInBand",
     "coverage:html": "NODE_ENV=test npm run test && ./node_modules/node-static/bin/cli.js --port 5000 coverage/lcov-report",
     "lint": "eslint 'app/**/*.ts' --quiet --fix",
@@ -18,8 +18,10 @@
   "author": "Joao Pedro Campos Silva",
   "license": "ISC",
   "dependencies": {
+    "ajv": "^8.4.0",
     "fastify": "^3.13.0",
     "fastify-plugin": "^3.0.0",
+    "fastify-swagger": "^4.7.0",
     "ts-node": "^9.1.1"
   },
   "devDependencies": {

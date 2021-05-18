@@ -3,7 +3,7 @@ import { FastifyInstance } from 'fastify';
 import healthcheckHandler from './handlers/healthcheckHandler';
 import healthcheckSchema from './schemas/healthcheckSchema';
 
-async function healthcheckRoutes(fastify: FastifyInstance) {
+async function healthcheckRoutes(fastify: FastifyInstance): Promise<void> {
     fastify.route({
         method: 'GET',
         url: '/healthcheck',
